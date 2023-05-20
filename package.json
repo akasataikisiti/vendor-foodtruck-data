@@ -1,0 +1,19 @@
+{
+  "name": "vendor-foodtruck-data",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:akasataikisiti/vendor-foodtruck-data.git",
+  "author": "akasataikisiti <nama0you0chu@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node \"build/index.js"
+  },
+  "dependencies": {
+    "@aws-sdk/util-dynamodb": "^3.335.0",
+    "aws-sdk": "^2.1381.0",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
+}
