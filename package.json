@@ -6,7 +6,7 @@
   "author": "akasataikisiti <nama0you0chu@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "node \"build/index.js"
+    "start": "node build/index.js"
   },
   "dependencies": {
     "@aws-sdk/util-dynamodb": "^3.335.0",
@@ -14,6 +14,8 @@
     "dotenv": "^16.0.3"
   },
   "devDependencies": {
+    "@aws-sdk/types": "^3.329.0",
+    "@types/node": "^20.2.1",
     "@typescript-eslint/eslint-plugin": "^5.59.6",
     "@typescript-eslint/parser": "^5.59.6",
     "eslint": "^8.41.0",
